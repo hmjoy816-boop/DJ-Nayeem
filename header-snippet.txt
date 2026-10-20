@@ -1,0 +1,17 @@
+=== PASTE THIS HEADER into every other page (about.html, services.html, etc.) ===
+=== Replace the old <header>...</header>. Move aria-current="page" to the current page's link. ===
+
+<header><div class="wrap"><a class="logo" href="index.html">Nayeem Origin</a><nav aria-label="Main"><a href="index.html">Home</a><a href="about.html">About</a>
+<div class="has-mega"><a href="services.html">Services</a><button class="mega-toggle" type="button" aria-expanded="false" aria-controls="mega-services" aria-label="Show services menu"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<div class="mega" id="mega-services">
+<div><h3>Audit and technical</h3><a class="item" href="seo-audit.html"><b>SEO Audit</b><span>Find what holds your site back</span></a><a class="item" href="technical-seo.html"><b>Technical SEO</b><span>Crawling, indexing, speed, schema</span></a></div>
+<div><h3>Content and keywords</h3><a class="item" href="keyword-research.html"><b>Keyword Research</b><span>Target what customers search for</span></a><a class="item" href="on-page-seo.html"><b>On-page SEO</b><span>Titles, headings, content, links</span></a></div>
+<div><h3>Authority and local</h3><a class="item" href="off-page-seo.html"><b>Off-page SEO</b><span>Link building and brand mentions</span></a><a class="item" href="local-seo.html"><b>Local SEO</b><span>Google Business Profile and citations</span></a></div>
+<div><h3>AI search</h3><a class="item" href="aeo.html"><b>AEO</b><span>Featured snippets and voice search</span></a><a class="item" href="geo.html"><b>GEO</b><span>Citations in ChatGPT, Perplexity, Gemini</span></a></div>
+<div class="mega-cta"><h3>Not sure where to start?</h3><p>Send me your website and I'll tell you which service fits.</p><a class="btn sm" href="https://wa.me/8801758536741">Ask on WhatsApp</a></div>
+</div></div>
+<a href="case-studies.html">Case Studies</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a></nav><a class="btn sm" href="https://wa.me/8801758536741">Hire Me</a></div></header>
+
+=== Also add these two lines to every page ===
+In <head>, right after the style.css link:   <link rel="stylesheet" href="mega-menu.css">
+Before </body>:                               <script src="mega-menu.js" defer></script>
